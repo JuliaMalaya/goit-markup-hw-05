@@ -605,12 +605,11 @@ footer {
     position: absolute;
     width: 408px;
     min-height: 584px;
-    left: 34%;
-    /*-*********************************-*/
-    top: 2%;
+    left: 50%;
+    top: 50%;
     background-color: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    transform: translete(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
     border-radius: 4px;
     padding: 72px 24px 24px 24px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -636,6 +635,11 @@ footer {
 
 .modal-close-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-close:hover .modal-close-icon,
+.modal-close:focus .modal-close-icon {
+    fill: #ffffff;
 }
 
 .modal-form-title {
@@ -780,7 +784,8 @@ footer {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-btn:hover,
-.form-btn:focus {
+.modal-form-btn:hover,
+.modal-form-btn:focus {
     background-color: #404BBF;
+    border: none;
 }
