@@ -638,11 +638,6 @@ footer {
 }
 
 .modal-close:hover,
-{
-background-color: #404bbf;
-border: none;
-}
-
 .modal-close:focus {
     background-color: #404bbf;
     border: none;
